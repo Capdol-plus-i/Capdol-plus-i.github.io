@@ -1,1 +1,2 @@
-npx --no -- commitlint --edit $1
+# Edit the file directly
+sed -i 's/\r$//' .husky/commit-msg
